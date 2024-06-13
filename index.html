@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travol</title>
+    <link rel="icon" href="img/">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/mainn.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav-bar">
+    <!-- ******************************start nav****************************** -->
+    <nav class="navbar p-3 navbar-expand-lg navbar-light bg-light sticky-top " id="nav-bar">
+        <div class="container">
+            <a class="navbar-brand logo text-primary position-relative  " href="#">
+                <i class="fa-solid fa-plane fs-3 logo-icon logo-size logo-icon-size"></i>
+                <p class="position-absolute  logo-size ">
+                    <b class="fs-1 logo-size">T</b>ravol
+                </p>
+            </a>
+            <button class="navbar-toggler  tog-size" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto fs-5 text-center">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3 ">
+                        <a class="nav-link " href="#about">About</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#package">Packages</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#destination">Destination</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item me-3 ms-lg-5 ms-0 mt-2 mt-lg-0">
+                        <a class="btn color-login px-4 py-2" href="sign.html">Login</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <span class="up"><i class="fa-solid fa-chevron-up"></i></span>
+    <!-- ******************************end nav****************************** -->
+
+
+    <!-- ******************************start header****************************** -->
+    <header id="header" class="position-relative  ">
+        <div class="container d-flex align-items-center h-75 ">
+            <div class="position-relative ">
+                <h2 class="fs-1 text-light text-capitalize mb-5">explore the world with Discover amzaing places exclusive deals <br> <b class="travol-head">travol</b> </h2>
+                <button class="btn btn-outline-primary  py-2 mt-3 px-4 text-capitalize fw-bold fs-3 " data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                <i class="fa-regular fa-circle-play" ></i>
+                watch our trip
+            </button>
+            </div>
+        </div>
+    </header>
+    <!-- ******************************end header****************************** -->
+
+
+    <!-- ******************************start-model****************************** -->
+    <div class="modal fade adel" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <object class="w-75 h-75" data="https://www.youtube.com/embed/watch?v=EvHQ0K0JZIY&list=PLnD96kXp-_pMJp3stPetkN76AJ2mmeah7&index=1"></object>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ******************************end-model****************************** -->
+
+
+    <!-- ******************************start-booking-section****************************** -->
+    <section class="booking  w-100 ">
+        <div class="container text-capitalize ">
+            <div class="d-flex align-items-center justify-content-around ">
+                <form class="px-5 py-4 bg-section  ">
+                    <div class="row ">
+
+                        <div class="col-lg-3 col-6 mb-3 mb-lg-0  ">
+                            <div class="inputBox d-flex flex-column  ">
+                                <label class=" mb-2 fw-bolder">Search Destination</label>
+                                <input type="text" placeholder="Enter Destination*" class="border-0 text-black-50 p-2 bg-transparent opacity-75">
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-6 mb-3 mb-lg-0  ">
+                            <div class="inputBox d-flex flex-column  ">
+                                <label class=" mb-2 fw-bolder ">pax number</label>
+                                <input type="text" placeholder="No.of pepole" class="border-0 text-black-50 p-2 bg-transparent opacity-75">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 mb-3 mb-lg-0  ">
+                            <div class="inputBox d-flex flex-column ">
+                                <label class=" mb-2 fw-bolder">Checkin Date*</label>
+                                <input type="date" class="border-0 text-black-50 p-2 bg-transparent opacity-75">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 mb-3 mb-lg-0  ">
+                            <div class="inputBox d-flex flex-column ">
+                                <label class=" mb-2 fw-bolder">Checkout Date*</label>
+                                <input type="date" class="border-0 text-black-50 p-2 bg-transparent opacity-75">
+                            </div>
+                        </div>
+
+                        <div class=" d-flex align-items-center col-12 m-lg-auto m-0 pt-lg-4 pt-0  justify-content-center mt-4">
+                            <span class=" btn color-login fs-4 px-4 py-2  booknow">Book Now</span>
+                        </div>
+
+
+                    </div>
+
+            </div>
+            </form>
+
+
+
+        </div>
+    </section>
+    <!-- ******************************end-booking-section****************************** -->
+
+
+    <!-- ******************************start-about****************************** -->
+    <section id="about" class=" bg-section">
+
+        <div class="container">
+            <div class="text-center mb-5 text-about-section">
+                <span class="title-before mb-3 p-3 text-uppercase rounded-pill my-3 fs-2 fw-bolder text-danger d-inline-block bg-body-secondary fst-italic">about</span>
+                <h3 class="text-capitalize mb-5 display-6">find out more <span class="text-danger">about us</span></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-6  mt-lg-0 mt-5">
+                    <video src="img/WhatsApp Video 2023-10-06 at 01.31.57_d092c9da.mp4" width="100%" height="100%" muted autoplay loop> </video>
+
+                </div>
+
+                <div class="col-lg-6 about-text">
+                    <h2 class="mb-4 text-primary text-capitalize mt-lg-0 mt-5 ">who are you ?</h2>
+                    <h6 class="mb-4 fw-bold fs-1 text-capitalize"> a smiling agent for you</h6>
+                    <p class="mb-4 text-muted"> Columbus Travel Media (CTM) is one of the most respected and successful names in the global travel industry, with a long and rich company heritage spanning 30 years.</p>
+                    <p class="mb-5 text-muted">We’ve been travelling the world for over 30 years, building a reputation for providing quality travel content that’s inspiring, engaging and informative. </p>
+                    <div>
+                        <span class="mb-3 btn color-login booknow ">Read More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="reach-num w-100 mt-5 p-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="text-center mb-4 mb-lg-0   text-reach">
+                            <div class="fs-1 text-white-50"><i class="fa-solid fa-handshake"></i></div>
+                            <span class="num fs-1 text-white fw-bolder" data-goal="626">0</span>
+                            <p class="fs-5 text-white-50 ">Partners</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="text-center mb-4 mb-lg-0 text-reach">
+                            <div class="fs-1 text-white-50"><i class="fa-solid fa-house"></i></div>
+                            <span class="num fs-1 text-white fw-bolder" data-goal="512">0</span>
+                            <p class="fs-5 text-white-50 ">Listed Property</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="text-center text-reach">
+                            <div class="fs-1 text-white-50"><i class="fa-solid fa-earth-europe"></i></div>
+                            <span class="num fs-1 text-white fw-bolder" data-goal="480">0</span>
+                            <p class="fs-5 text-white-50 ">Destinations</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="text-center text-reach">
+                            <div class="fs-1 text-white-50"><i class="fa-solid fa-calendar-check"></i></div>
+                            <span class="num fs-1 text-white fw-bolder" data-goal="501">0</span>
+                            <p class="fs-5 text-white-50 ">Booking</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ******************************end-about****************************** -->
+
+
+    <!-- ******************************start-package****************************** -->
+    <section id="package" class="my-5 bg-section">
+        <div class="container-fluid">
+            <div class="text-center mb-5 text-about-section">
+                <span class="title-before mb-3 p-3 text-uppercase rounded-pill my-3 fs-2 fw-bolder text-danger d-inline-block bg-body-secondary fst-italic">package</span>
+                <h3 class="text-capitalize mb-3 display-6">find out more <span class="text-danger">package</span></h3>
+            </div>
+
+            <div class="row">
+                <div class="slide-container swiper">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="col-lg-4 col-md-3 col-12 mb-5 d-flex align-items-center justify-content-center swiper-slide">
+                            <div class="card " style="width: 18rem;">
+                                <div class="img-package position-relative">
+                                    <img src="img/hotel3.png" class="card-img-top position-relative" alt="...">
+                                </div>
+                                <div class="position-absolute sale-package">
+                                    <span class="text-primary fw-bold fs-5">50%</span>
+                                </div>
+                                <div class="position-absolute text-light icon-card">
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    <span class="fs-6">New beach Thailand</span>
+                                </div>
+                                <div class="card-body">
+                                    <b class="fw-bold fs-4"><span class="text-danger">$</span>100.00 </b>
+                                    <h5 class="card-title fw-bold  mb-1">Kantua hotel, Thailand</h5>
+                                    <p class="card-text text-primary">4.8/5 Excellent </p>
+                                    <a href="#" class="btn btn-primary mt-1 ">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-12 mb-5 d-flex align-items-center justify-content-center swiper-slide">
+                            <div class="card " style="width: 18rem;">
+                                <div class="img-package position-relative">
+                                    <img src="img/hotel4.png" class="card-img-top position-relative" alt="...">
+                                </div>
+
+                                <div class="position-absolute text-light icon-card">
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    <span class="fs-6">Mariana island</span>
+                                </div>
+                                <div class="card-body">
+                                    <b class="fw-bold fs-4"><span class="text-danger">$</span>180.00 </b>
+                                    <h5 class="card-title fw-bold  mb-1">Hotel deluxe</h5>
+                                    <p class="card-text text-primary">4.7/5 Excellent </p>
+                                    <a href="#" class="btn btn-primary mt-1 ">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-12 mb-5 d-flex align-items-center justify-content-center swiper-slide">
+                            <div class="card " style="width: 18rem;">
+                                <div class="img-package position-relative">
+                                    <img src="img/hotel6.png" class="card-img-top position-relative" alt="...">
+                                </div>
+                                <div class="position-absolute sale-package">
+                                    <span class="text-primary fw-bold fs-5">70%</span>
+                                </div>
+                                <div class="position-absolute text-light icon-card">
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    <span class="fs-6">Beach view</span>
+                                </div>
+                                <div class="card-body">
+                                    <b class="fw-bold fs-4"><span class="text-danger">$</span>300.00 </b>
+                                    <h5 class="card-title fw-bold  mb-1">Thailand grand suit</h5>
+                                    <p class="card-text text-primary">4.9/5 Excellent </p>
+                                    <a href="#" class="btn btn-primary mt-1 ">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-12 mb-5 d-flex align-items-center justify-content-center swiper-slide">
+                            <div class="card " style="width: 18rem;">
+                                <div class="img-package position-relative">
+                                    <img src="img/hotel7.png" class="card-img-top position-relative" alt="...">
+                                </div>
+                                <div class="position-absolute text-light icon-card">
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    <span class="fs-6">Long island</span>
+                                </div>
+                                <div class="card-body">
+                                    <b class="fw-bold fs-4"><span class="text-danger">$</span>70.00 </b>
+                                    <h5 class="card-title fw-bold  mb-1">Zefi resort and spa</h5>
+                                    <p class="card-text text-primary">4.2/5 Excellent </p>
+                                    <a href="#" class="btn btn-primary mt-1 ">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-12 mb-5 d-flex align-items-center justify-content-center swiper-slide">
+                            <div class="card " style="width: 18rem;">
+                                <div class="img-package position-relative">
+                                    <img src="img/hotel8.png" class="card-img-top position-relative" alt="...">
+                                </div>
+
+                                <div class="position-absolute sale-package">
+                                    <span class="text-primary fw-bold fs-5">30%</span>
+                                </div>
+                                <div class="position-absolute text-light icon-card">
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    <span class="fs-6">Philippine</span>
+                                </div>
+                                <div class="card-body">
+                                    <b class="fw-bold fs-4"><span class="text-danger">$</span>450.00 </b>
+                                    <h5 class="card-title fw-bold  mb-1">Manila international </h5>
+                                    <p class="card-text text-primary">4.8/5 Excellent </p>
+                                    <a href="#" class="btn btn-primary mt-1 ">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-12 mb-5 d-flex align-items-center justify-content-center swiper-slide">
+                            <div class="card " style="width: 18rem;">
+                                <div class="img-package position-relative">
+                                    <img src="img/hotel2.png" class="card-img-top position-relative" alt="...">
+                                </div>
+
+                                <div class="position-absolute text-light icon-card">
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    <span class="fs-6">Indonesia</span>
+                                </div>
+                                <div class="card-body">
+                                    <b class="fw-bold fs-4"><span class="text-danger">$</span>10.00 </b>
+                                    <h5 class="card-title fw-bold  mb-1">Hotel paradise </h5>
+                                    <p class="card-text text-primary">4/5 Excellent </p>
+                                    <a href="#" class="btn btn-primary mt-1 ">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" video position-relative text-center text-light mb-5 mt-5">
+            <div class="videoo position-relative">
+                <video src="https://duruthemes.com/demo/html/travol/travel-video.mp4" loop autoplay muted class="video-maldif position-relative"></video>
+            </div>
+
+            <div class="position-absolute content-video d-flex align-items-center justify-content-center w-100 flex-column">
+
+                <div class="text-video mb-4">
+                    <h2 class="fw-bolder fs-1 ">Costa Victoria Cochin</h2>
+                    <h4 class="mt-4"><i class="fa-solid fa-location-dot"></i>Maldives <span class="text-muted fs-4 ms-4 fw-bold"><i class="fa-solid fa-stopwatch"></i>4 Days + 3 Nights</span></h4>
+                </div>
+
+                <div class="countdown mt-2 d-flex flex-row ">
+
+                    <div class="m-3">
+                        <span class="days  fs-1  fw-bolder">00 </span>
+                        <p class="fs-3  text-muted fw-bold">days</p>
+                    </div>
+
+                    <div class="m-3 ">
+                        <span class="hours fs-1  fw-bolder">00</span>
+                        <p class="fs-3 text-muted fw-bold">hours</p>
+                    </div>
+
+                    <div class="m-3 ">
+                        <span class="minutes fs-1 fw-bolder">00</span>
+                        <p class="fs-3 text-muted fw-bold">minute</p>
+                    </div>
+
+                    <div class="m-3 ">
+                        <span class="seconds fs-1 fw-bolder">00</span>
+                        <p class="fs-3 text-muted fw-bold">seconds</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ******************************end-package****************************** -->
+
+
+    <!-- ******************************start-destination****************************** -->
+    <section id="destination" class="my-5 bg-section">
+        <div class="container">
+            <div class="text-center text-about-section">
+                <span class="title-before mb-3 p-3 text-uppercase rounded-pill my-3 fs-2 fw-bolder text-danger d-inline-block bg-body-secondary fst-italic">destination</span>
+                <h3 class="text-capitalize mb-3 display-6">find out more <span class="text-danger">destination</span></h3>
+            </div>
+            <div class="mb-5 text-travel">
+                <span class=" color-text-destination text-header d-none d-md-block">MOST POPULAR DESTINATION</span>
+                <h2 class=" mt-1 mb-5"><span class="color-text-destination">TRAVEL</span> COUNTRIES </h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 col-12 mb-5">
+                    <div class="img-italy">
+
+
+                        <div class="mb-5 text__size">
+                            <h1 class="fw-bold "><span class="color-text-destination">ITALY</span>, EUROPE</h1>
+                            <span class="text-muted">We provide you with interesting and exciting tours to different parts of the world. Orci varius natoque penatibus et magnis disney turien nascete ridiculus duru in the mus.</span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-4">
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Roma</p>
+                                </div>
+
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Milan</p>
+                                </div>
+
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Verona</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-4">
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Venice</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Florence</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Perugia</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-4">
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">San Marino</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Parma</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted"> Aosta</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button>
+                    All Tours <i class="fa-solid fa-arrow-right "></i>
+                </button>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-6 italy-images position-relative mb-5">
+                    <div class="imgg position-relative">
+                        <img src="img/rome1.jpg" width="100%" height="380" alt="">
+                    </div>
+                    <p class="position-absolute country-text">Roma</p>
+                    <span class="position-absolute icon-text "><i class="fa-solid fa-stopwatch"></i>4 Days <i class="fa-solid fa-person"></i>10+ <i class="fa-solid fa-location-dot"></i>italy</span>
+                    <span class="position-absolute price-text">1.500$</span>
+                </div>
+
+                <div class="col-lg-3 col-6 italy-images position-relative mb-5">
+                    <div class="imgg position-relative">
+                        <img src="img/perugia1.jpg" width="100%" height="380" alt="">
+                    </div>
+                    <p class="position-absolute country-text">Milan</p>
+                    <span class="position-absolute icon-text "><i class="fa-solid fa-stopwatch"></i>8 Days <i class="fa-solid fa-person"></i>3+ <i class="fa-solid fa-location-dot"></i>italy</span>
+                    <span class="position-absolute price-text">1.200$</span>
+                </div>
+
+
+
+                <div class="col-lg-3 col-6 italy-images position-relative mt-4 ">
+                    <div class="imgg position-relative">
+                        <img src="img/france-paris1.jpg" width="100%" height="380" alt="">
+                    </div>
+                    <p class="position-absolute country-text">Paris</p>
+                    <span class="position-absolute icon-text "><i class="fa-solid fa-stopwatch"></i>7 Days <i class="fa-solid fa-person"></i>12+ <i class="fa-solid fa-location-dot"></i>france</span>
+                    <span class="position-absolute price-text">1.800$</span>
+                </div>
+
+                <div class="col-lg-3 col-6 italy-images position-relative mt-4">
+                    <div class="imgg position-relative">
+                        <img src="img/france-bordeaux1.jpg" width="100%" height="380" alt="">
+                    </div>
+                    <p class="position-absolute country-text">Lyon</p>
+                    <span class="position-absolute icon-text "><i class="fa-solid fa-stopwatch"></i>8 Days <i class="fa-solid fa-person"></i>3+ <i class="fa-solid fa-location-dot"></i>italy</span>
+                    <span class="position-absolute price-text">1.100$</span>
+                </div>
+
+                <div class="col-lg-6 col-12 mt-4">
+                    <div class="img-france">
+                        <div class="text__size mb-5">
+                            <h1 class="fw-bold"><span class="color-text-destination">FRANCE</span>, EUROPE</h1>
+                            <span class="text-muted">We provide you with interesting and exciting tours to different parts of the world. Orci varius natoque penatibus et magnis disney turien nascete ridiculus duru in the mus.</span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-4">
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-mute">Paris</p>
+                                </div>
+
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Orleans</p>
+                                </div>
+
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Nantes</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-4">
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Lyon</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Bordeaux</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Toulouse</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-4">
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Marseille</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Cannes</p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="fa-solid fa-location-dot me-2 color-text-destination"></i>
+                                    <p class="text-muted">Nice</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button>
+                All Tours <i class="fa-solid fa-arrow-right "></i>
+            </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ******************************end-destination****************************** -->
+
+
+
+    <!-- ******************************start-services****************************** -->
+    <section id="services" class="my-5 bg-section">
+        <div class="container">
+            <div class="text-center text-about-section">
+                <span class="title-before mb-3 p-3 text-uppercase rounded-pill my-3 fs-2 fw-bolder text-danger d-inline-block bg-body-secondary fst-italic">services</span>
+                <h3 class="text-capitalize mb-3 display-6">find out more <span class="text-danger">services</span></h3>
+            </div>
+            <div class="row m-auto m-lg-0">
+                <div class="col-lg-12 mt-5 ">
+                    <div class="accordion accordion-flush " id="accordionFlushExample">
+
+
+                        <div class="accordion-item mb-4 ">
+                            <h2 class="accordion-header position-relative " id="flush-headingOne">
+                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How To Download And Register
+                            </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header  position-relative" id="flush-headingTwo">
+                                <button class="accordion-button collapsed  fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            How To Create Your Paypal Account
+                            </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-muted">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header position-relative" id="flush-headingThree">
+                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            How To Link Your Paypal And Bank Account
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-muted">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful
+                                    a rethoric question ran over her cheek, then she continued her way.</div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header position-relative" id="flush-headingFour">
+                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                We Are Better Than Other
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-muted">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful
+                                    a rethoric question ran over her cheek, then she continued her way.</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                                    it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" slider position-relative mt-5 p-0 p-lg-0">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active  h-100">
+                            <img src="img/testimonials-1.jpg" class="d-block mx-auto rounded-circle mt-5" width="150px" height="150px" alt="...">
+                            <div class="carousel-caption  ">
+                                <h5 class="fw-bolder fs-3">Nolan White</h5>
+                                <p class="text-white-50 fw-bolder fs-4">Responsible for all trips and transportation within the city.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="img/testimonials-2.jpg" class="d-block mx-auto rounded-circle mt-5" width="150px" height="150px" alt="...">
+                            <div class="carousel-caption ">
+                                <h5 class="fw-bolder fs-3">Thomas Party</h5>
+                                <p class="text-white-50 fw-bolder fs-4">He has spent his entire life traveling and has won many awards.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="img/testimonials-3.jpg" class="d-block mx-auto rounded-circle mt-5" width="150px" height="150px" alt="...">
+                            <div class="carousel-caption">
+                                <h5 class="fw-bolder fs-3">Declan Rice</h5>
+                                <p class="text-white-50 fw-bolder fs-4">One of the most senior management officials and efficient in his work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************************end-services****************************** -->
+
+
+
+    <!-- ******************************start-contact****************************** -->
+    <section id="contact" class="bg-section">
+        <div class="container">
+            <div class="text-center text-about-section">
+                <span class="title-before mb-3 p-3 text-uppercase rounded-pill my-3 fs-2 fw-bolder text-danger d-inline-block bg-body-secondary fst-italic">contact</span>
+                <h3 class="text-capitalize mb-3 display-6">find out more <span class="text-danger">contact</span></h3>
+            </div>
+
+            <div class="row mt-5 alltext-contact">
+                <div class="col-lg-4 col-6 d-flex flex-column align-items-baseline justify-content-center">
+
+                    <div class="d-flex flex-row mb-4">
+                        <div><i class="fa-solid fa-location-dot p-3 fs-4 bg-primary text-white rounded-pill"></i></div>
+                        <div class="d-flex flex-column ms-4">
+                            <span class="text-uppercase mb-1 fw-bold fs-4">location:</span>
+                            <span class="text-capitalize text-black-50">43 Raymouth Rd. Baltemoer, London 3910</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-4">
+                        <div><i class="fa-solid fa-clock p-3 fs-4 bg-primary text-white rounded-pill"></i></div>
+                        <div class="d-flex flex-column ms-4">
+                            <span class="text-uppercase  fw-bold fs-4">Open Hours:</span>
+                            <span class="text-capitalize text-black-50">Sunday-Friday:</span>
+                            <span class="text-capitalize text-black-50">11:00 AM - 23:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-4">
+                        <div><i class="fa-solid fa-envelope p-3 fs-4 bg-primary text-white rounded-pill"></i></div>
+                        <div class="d-flex flex-column ms-4">
+                            <span class="text-uppercase mb-1 fw-bold fs-4">Email:</span>
+                            <span class="text-capitalize text-black-50">zyasser@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-4">
+                        <div><i class="fa-solid fa-phone p-3 fs-4 bg-primary text-white rounded-pill"></i></div>
+                        <div class="d-flex flex-column ms-4">
+                            <span class="text-uppercase mb-1 fw-bold fs-4">call:</span>
+                            <span class="text-capitalize text-black-50">011-50-72-3155</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8 col-6">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Your name" aria-label="First name">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Your email" aria-label="Last name">
+                            </div>
+                            <div class="my-4">
+                                <input type="text" class="form-control" placeholder="Your subject" aria-label="Last name">
+                            </div>
+
+                            <div>
+                                <textarea class="form-control" placeholder="Leave a comment here" style="height: 100px"></textarea>
+                            </div>
+                            <div class="mt-4">
+                                <button type="submit" class="btn btn-primary ">Send Massage</button>
+                            </div>
+
+                    </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ******************************end-contact****************************** -->
+
+
+
+    <!-- ******************************start-footer****************************** -->
+
+    <footer class="p-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="text-muted">
+                        <h6 class="">Travol</h6>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><b>Email:</b>ziad@gmail.com</p>
+                        <p><b>phone:</b>011-50-72-3155</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6  mb-3">
+                    <div class="text-muted ms-lg-5">
+                        <h6>About</h6>
+                        <ul class="list-unstyled ps-3 link-style d-flex flex-column d-lg-block">
+                            <li class="d-inline-block">About Us</li>
+                            <!-- <li class="d-inline-block">Features</li> -->
+                            <li class="d-inline-block">News & Blog</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <div class="text-muted">
+                        <h6>Company</h6>
+                        <ul class="list-unstyled ps-3 link-style d-flex flex-column d-lg-inline-block">
+                            <li>How work?</li>
+                            <li>Capital plaza</li>
+                            <li>Security</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <div class="text-muted ms-lg-5">
+                        <h6>Support</h6>
+                        <ul class="list-unstyled ps-3 link-style d-flex flex-column d-lg-block">
+                            <li class="d-inline-block">FAQs</li>
+                            <li class="d-inline-block">Support center</li>
+                            <li class="d-inline-block">Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="text-muted">
+                        <h6>Our-Social-Network</h6>
+                        <div class="d-flex flex-row">
+                            <div class="me-3">
+                                <a href="https://www.facebook.com/ziad.zizo.524/" target="_blank" class="text-black-50 fs-4 text-primary "><i class="fa-brands fa-facebook icons-footer text-primary"></i></a>
+                            </div>
+                            <div class="me-3">
+                                <a href="https://www.instagram.com/ziad_yasser72/" target="_blank" class="text-black-50 fs-4 text-primary "><i class="fa-brands fa-instagram icons-footer text-primary"></i></a>
+                            </div>
+                            <div class="me-3">
+                                <a href="https://www.linkedin.com/in/ziad-yasser-3b5989282/" target="_blank" class="text-black-50 fs-4 text-primary "><i class="fa-brands fa-linkedin icons-footer text-primary"></i></a>
+                            </div>
+                            <div class="me-3">
+                                <a href="https://www.youtube.com/@SamNewton" target="_blank" class="text-black-50 fs-4 text-primary "><i class="fa-brands fa-youtube icons-footer text-primary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ******************************end-footer****************************** -->
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
